@@ -1,0 +1,96 @@
+.navigation-clean {
+  background-color:#0D0D0D;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+.special{
+  color: rgb(228, 13, 13);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:#0D0D0D;
+  }
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggler:hover, .navigation-clean .navbar-toggler:focus {
+  background: none;
+}
+
+.navigation-clean .navbar-toggler {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #ffff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  background-color: #0d0d0d;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: none;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
+  background: #eee;
+  color: inherit;
+}
+.navbar-collapse{
+  background-color:#0D0D0D;
+}
