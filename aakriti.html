@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Typing Effect on Text Using Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>
+h1{
+  font-family: 'VT323', monospace;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+  color: #8800C7;
+  font-size: 5em;
+  
+}
+body{
+  background-color:#07121D;
+}</style>
+</head>
+
+<body>
+
+<center>
+    <h1 id="type-text"></h1>
+    </center>
+
+    <script>
+        var i = 0;
+        var txt = 'You Are Hacked <3';
+        var speed = 120;
+
+        typeMyText();
+
+        function typeMyText() {
+            if (i < txt.length) {
+                document.getElementById("type-text").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeMyText, speed);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
